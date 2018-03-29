@@ -11,8 +11,8 @@
 | ---- | -- | ------ | --- |
 | [SRCNN](https://arxiv.org/abs/1501.00092)  | 3 | MSE | `9*9*64*1 + 5*5*64*32 + 5*5*32*1=`57184 |
 | [ESPCN](https://arxiv.org/abs/1609.05158)  | 3 | MSE | `5*5*64*1 + 3*3*64*32 + 3*3*32*4=`21184 |
-| [FSRCNN](https://arxiv.org/abs/1608.00367)  | 8 | MSE | 22832 |
-| [VDSR](https://arxiv.org/abs/1511.04587)  | 20 | MSE | 738432 |
+| [FSRCNN](https://arxiv.org/abs/1608.00367)  | 8 | MSE | `5*5*56*1+1*1*12*56+3*3*12*12*4+1*1*56*12+9*9*1*56=`12464 |
+| [VDSR](https://arxiv.org/abs/1511.04587)  | 20 | MSE | `1*64*3*3+20*64*64*3*3+64*1*3*3=`738432 |
 | [DRCN](https://arxiv.org/abs/1511.04491)  | 20  | MSE | 1774080 |
 | [DRRN](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) | 20 | MSE | 296064 |
 | [SRGAN/SRResNet](https://arxiv.org/abs/1609.04802)  | 37 | perceptual loss | 1395072 |
