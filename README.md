@@ -16,5 +16,5 @@
 | [DRCN](https://arxiv.org/abs/1511.04491)  | 20  | MSE | `1*256*3*3 + 256*256*3*3 + 256*256*3*3 + 256*256*3*3 + 256*1*3*3=`1774080 |
 | [DRRN](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) | 20 | MSE | `1*128*3*3 + 128*128*3*3*2 + 128*1*3*3=`296064 |
 | [SRGAN/SRResNet](https://arxiv.org/abs/1609.04802)  | 37 | perceptual loss | `9*9*3*64 + 16*64*64*3*3 + 64*64*3*3 + 64*64*4*3*3 + 64*3*9*9=`805248 |
-| [LapSRN](https://arxiv.org/abs/1710.01992)  | 14 |  Charbonnier | 436624 |
-| [EDSR](https://arxiv.org/abs/1707.02921)  | 67 | L1 | 3314816 |
+| [LapSRN](https://arxiv.org/abs/1710.01992)  | 14 |  Charbonnier | `1*64*3*3 + 10*64*64*3*3 + 64*1*3*3 + 1*1*4*4=`369808 |
+| [EDSR](https://arxiv.org/abs/1707.02921)  | 67 | L1 | `3*256*3*3 + 32*2*256*256*3*3 + 256*256*3*3 + 256*256*4*3*3 + 256*3*3*3=`3314816 |
