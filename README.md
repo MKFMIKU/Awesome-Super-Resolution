@@ -9,12 +9,12 @@
 
 | Name  | Depth(scale=2) | Loss function | Parameters |
 | ---- | -- | ------ | ---- |
-| [SRCNN](https://arxiv.org/abs/1501.00092)  | 3 | MSE | `9*9*64*1 + 5*5*64*32 + 5*5*32*1=`57184 |
-| [ESPCN](https://arxiv.org/abs/1609.05158)  | 3 | MSE | `5*5*64*1 + 3*3*64*32 + 3*3*32*4=`21184 |
-| [FSRCNN](https://arxiv.org/abs/1608.00367)  | 8 | MSE | `5*5*56*1 + 1*1*12*56 + 3*3*12*12*4 + 1*1*56*12 + 9*9*1*56=`12464 |
-| [VDSR](https://arxiv.org/abs/1511.04587)  | 20 | MSE | `1*64*3*3 + 20*64*64*3*3 + 64*1*3*3=`738432 |
-| [DRCN](https://arxiv.org/abs/1511.04491)  | 20  | MSE | `1*256*3*3 + 256*256*3*3 + 256*256*3*3 + 256*256*3*3 + 256*1*3*3=`1774080 |
-| [DRRN](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) | 20 | MSE | `1*128*3*3 + 128*128*3*3*2 + 128*1*3*3=`296064 |
-| [SRGAN/SRResNet](https://arxiv.org/abs/1609.04802)  | 37 | perceptual loss | `9*9*3*64 + 16*2*64*64*3*3 + 64*64*3*3 + 64*64*4*3*3 + 64*3*9*9=`1395072 |
-| [LapSRN](https://arxiv.org/abs/1710.01992)  | 14 |  Charbonnier | `1*64*3*3 + 10*64*64*3*3 + 64*1*3*3 + 1*1*4*4=`369808 |
-| [EDSR](https://arxiv.org/abs/1707.02921)  | 67 | L1 | `3*256*3*3 + 32*2*256*256*3*3 + 256*256*3*3 + 256*256*4*3*3 + 256*3*3*3=`40711680 |
+| [SRCNN](https://arxiv.org/abs/1501.00092)  | 3 | MSE | 57184 |
+| [ESPCN](https://arxiv.org/abs/1609.05158)  | 3 | MSE | 21184 |
+| [FSRCNN](https://arxiv.org/abs/1608.00367)  | 8 | MSE | 12464 |
+| [VDSR](https://arxiv.org/abs/1511.04587)  | 20 | MSE | 738432 |
+| [DRCN](https://arxiv.org/abs/1511.04491)  | 20  | MSE | 1774080 |
+| [DRRN](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) | 20 | MSE | 296064 |
+| [SRGAN/SRResNet](https://arxiv.org/abs/1609.04802)  | 37 | perceptual loss | 1395072 |
+| [LapSRN](https://arxiv.org/abs/1710.01992)  | 14 |  Charbonnier | 369808 |
+| [EDSR](https://arxiv.org/abs/1707.02921)  | 67 | L1 | 40711680 |
